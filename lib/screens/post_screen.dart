@@ -15,7 +15,6 @@ class _PostScreenState extends State<PostScreen> {
   @override
   void initState() {
     final videoId = YoutubePlayer.convertUrlToId(videoUrl);
-    // TODO: implement initState
     super.initState();
     _controller = YoutubePlayerController(initialVideoId:videoId!,
     flags: YoutubePlayerFlags(
